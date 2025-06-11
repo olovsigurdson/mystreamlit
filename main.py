@@ -7,7 +7,7 @@ data = {
     'Series_2': [10, 30, 40, 100, 250]
 }
 
-olov = "hej"
+"hej"
 
 st.title('Olovs first app')
 st.subheader('Testar Streamlit!!')
