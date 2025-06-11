@@ -7,14 +7,13 @@ data = {
     'Series_2': [10, 30, 40, 100, 250]
 }
 
-
+olov = "hej"
 
 st.title('Olovs first app')
 st.subheader('Testar Streamlit!!')
 st.write(get_weather())
 st.write('''Första webappen
 Testar!!
-
 ''')
 
 df = pandas.DataFrame(data)
