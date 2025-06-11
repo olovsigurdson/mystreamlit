@@ -14,3 +14,4 @@ Testar!! mer
 
 df = pandas.DataFrame(data)
 st.write(df)
+st.line_chart(df)
