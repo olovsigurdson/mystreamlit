@@ -11,9 +11,10 @@ data = {
 
 st.title('Olovs first app')
 st.subheader('Testar Streamlit!!')
-st.write(f'''Första webappen
+st.write(get_weather())
+st.write('''Första webappen
 Testar!!
-{get_weather()}
+
 ''')
 
 df = pandas.DataFrame(data)
